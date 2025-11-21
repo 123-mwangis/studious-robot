@@ -61,5 +61,5 @@ Next steps
 - Improve conversational logic or add an LLM backend.
 - Add persistent context memory.
 - Add web or API front-end.
-# studious-robot
-Ai software that turns text to anime
+# -
+      
