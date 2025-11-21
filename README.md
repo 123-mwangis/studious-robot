@@ -1,3 +1,34 @@
+# Studious Robot — Independent AI Assistant
+
+This repository contains a minimal, extendable Python AI assistant. It ships with a simple rule-based engine and optional OpenAI integration.
+
+Quick start
+
+1. Run locally (rule-based):
+
+```bash
+python Main.py
+```
+
+2. Use OpenAI for responses (optional):
+
+```bash
+export OPENAI_API_KEY="sk-..."
+export USE_OPENAI=true
+python Main.py
+```
+
+Files
+
+- `Main.py`: CLI entrypoint that loads `ai.engine.Assistant`.
+- `ai/engine.py`: Assistant implementation (rule-based + optional OpenAI).
+- `requirements.txt`: Optional dependency for OpenAI integration.
+
+Next ideas
+
+- Add conversation history and system prompts.
+- Add a simple GUI or web interface.
+- Add persistence for sessions and user preferences.
 # Studious Robot — Minimal AI Assistant
 
 This repository contains a minimal, extendable AI assistant implemented in Python.
